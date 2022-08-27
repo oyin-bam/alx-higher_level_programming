@@ -7,4 +7,4 @@ def new_in_list(my_list, idx, element):
         return check_list
     else:
         check_list[idx] = element
-        return checklist_list
+        return check_list
