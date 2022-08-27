@@ -2,9 +2,9 @@
 if __name__ == "__main__":
     import sys
     num_of_arg = len(sys.argv)
-    if num_of_arg = 1:
+    if num_of_arg == 1:
         print("{} arguments.".format(num_of_arg - 1))
-    elif num_of_arg = 2:
+    elif num_of_arg == 2:
         print("{} argument:".format(num_of_arg - 1))
     else:
         print("{} arguments.".format(num_of_arg - 1))
