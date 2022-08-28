@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    string_list = my_string.split()
-    string_list.remove("cC")
-    new_string = "".join(string_list)
+    # specifying the mapping using ASCII
+    table = {ord('c'): None, ord('C'): None}
+    new_string = my_string.translate(table)
     return new_string
